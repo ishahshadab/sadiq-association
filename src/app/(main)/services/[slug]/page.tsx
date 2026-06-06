@@ -4,8 +4,7 @@ import { MessageCircle, CheckCircle2, ArrowRight } from 'lucide-react';
 import Link from 'next/link';
 import { services } from '@/data/services';
 import { companyConfig } from '@/config/company';
-//import { slugify } from '@/lib/utils';
-//import PageTransition from '@/components/layout/PageTransition';
+
 import ServiceCard from '@/components/common/ServiceCard';
 import SectionHeading from '@/components/common/SectionHeading';
 
@@ -43,7 +42,7 @@ export default function ServiceDetailPage({ params }: Props) {
   const whatsappUrl = `https://wa.me/${companyConfig.contact.whatsapp}?text=${whatsappMessage}`;
 
   return (
-    //<PageTransition>
+    
       {/* Banner */}
       <section className="relative py-20 md:py-28 bg-gradient-to-br from-primary-blue to-primary-dark text-white overflow-hidden">
         <div className="absolute inset-0 bg-[linear-gradient(to_right,#ffffff08_1px,transparent_1px),linear-gradient(to_bottom,#ffffff08_1px,transparent_1px)] bg-[size:40px_40px]" />
@@ -177,6 +176,6 @@ export default function ServiceDetailPage({ params }: Props) {
           </a>
         </div>
       </section>
-    //</PageTransition>
+   
   );
 }

@@ -1,4 +1,3 @@
-
 import { companyConfig } from '@/config/company';
 
 export const metadata = { title: 'Disclaimer' };

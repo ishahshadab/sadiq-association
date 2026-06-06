@@ -6,7 +6,7 @@ import ProcessOverview from '@/components/home/ProcessOverview';
 import StatsCounter from '@/components/home/StatsCounter';
 import FounderMessage from '@/components/home/FounderMessage';
 import Testimonials from '@/components/home/Testimonials';
-import ClientBenefits from '@/components/home/ClientBenefits';
+{/*import ClientBenefits from '@/components/home/ClientBenefits';*/}
 import ContactCTA from '@/components/home/ContactCTA';
 
 export default function HomePage() {

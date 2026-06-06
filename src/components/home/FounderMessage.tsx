@@ -15,7 +15,7 @@ export default function FounderMessage() {
             <div className="relative">
               <div className="relative w-full aspect-[4/5] rounded-2xl overflow-hidden bg-gray-100">
                 <Image
-                  src="/images/founder.jpg"
+                  src="/images/src="founder-placeholder.jpg"
                   alt={`${companyConfig.founder.name} - Founder`}
                   fill
                   className="object-cover object-center"

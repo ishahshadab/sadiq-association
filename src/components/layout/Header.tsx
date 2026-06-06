@@ -65,15 +65,15 @@ export default function Header() {
       className="w-full h-full object-contain"
     />
   </div>
-  {/* Company Name */}
-  <div className="hidden sm:block">
-    <div className="font-bold text-xl text-gray-900 leading-tight">
-      {companyConfig.name}
-    </div>
-    <div className="text-xs text-gray-500 font-medium">
-      Financial & Tax Consultants
-    </div>
+{/* Company Name */}
+<div className="block">
+  <div className="font-bold text-base sm:text-xl text-gray-900 leading-tight">
+    {companyConfig.name}
   </div>
+  <div className="text-xs text-gray-500 font-medium hidden sm:block">
+    Financial & Tax Consultants
+  </div>
+</div>
 </Link>
 
 {/* Desktop Navigation - Simple Links */}

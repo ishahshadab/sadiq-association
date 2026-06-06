@@ -7,18 +7,20 @@ import { companyConfig } from '@/config/company';
 
 export default function Hero() {
   return (
-    <section className="relative min-h-[90vh] flex items-center overflow-hidden bg-gradient-to-br from-slate-50 via-white to-primary-blue/5">
+    <section className="relative min-h-[90vh] flex items-center w-full overflow-hidden bg-gradient-to-br from-slate-50 via-white to-primary-blue/5">
       {/* Animated Background */}
-      <div className="absolute inset-0 overflow-hidden">
-        <div className="absolute top-0 -left-40 w-96 h-96 bg-primary-blue/10 rounded-full blur-3xl animate-pulse-slow" />
-        <div className="absolute bottom-0 -right-40 w-96 h-96 bg-primary-green/10 rounded-full blur-3xl animate-pulse-slow" style={{ animationDelay: '2s' }} />
-        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px] bg-gradient-radial opacity-30" />
-      </div>
+      <div className="absolute inset-0 overflow-hidden w-full">
+  <div className="absolute top-0 -left-40 w-96 h-96 bg-primary-blue/10 rounded-full blur-3xl animate-pulse-slow" />
+  <div className="absolute bottom-0 -right-40 w-96 h-96 bg-primary-green/10 rounded-full blur-3xl animate-pulse-slow" style={{ animationDelay: '2s' }} />
+  <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px] bg-gradient-radial opacity-30" />
+  <div className="absolute top-0 right-0 w-1/2 h-full bg-primary-blue/5" />
+</div>
 
       {/* Grid Pattern */}
-      <div className="absolute inset-0 bg-[linear-gradient(to_right,#80808012_1px,transparent_1px),linear-gradient(to_bottom,#80808012_1px,transparent_1px)] bg-[size:40px_40px]" />
+      <div className="absolute inset-0 w-full bg-[linear-gradient(to_right,#80808012_1px,transparent_1px),linear-gradient(to_bottom,#80808012_1px,transparent_1px)] bg-[size:40px_40px]" />
 
-      <div className="container-custom px-4 md:px-8 relative z-10 py-20">
+<div className="w-full px-4 md:px-8 lg:px-16 relative z-10 py-20">
+  <div className="container-custom mx-auto">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           {/* Text Content */}
           <div>
@@ -167,6 +169,7 @@ export default function Hero() {
           </motion.div>
         </div>
       </div>
+  </div>
     </section>
   );
 }

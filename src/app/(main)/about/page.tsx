@@ -19,7 +19,7 @@ const timeline = [
   { year: '2010', title: 'Foundation', desc: 'Company established with a vision to simplify financial services.' },
   { year: '2014', title: 'Growth Phase', desc: 'Expanded services to include GST, compliance, and IP registration.' },
   { year: '2018', title: 'Digital Transformation', desc: 'Launched online portal for seamless client experience.' },
-  { year: '2022', title: '1000+ Clients', desc: 'Crossed the milestone of serving over 1000 happy clients.' },
+  { year: '2022', title: '400+ Clients', desc: 'Crossed the milestone of serving over 400+ happy clients.' },
   { year: '2026', title: 'Present Day', desc: 'Leading financial consultancy with pan-India presence.' },
 ];
 

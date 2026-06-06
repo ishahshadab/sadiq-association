@@ -13,18 +13,19 @@ export default function FounderMessage() {
           {/* Image Section */}
           <FadeIn direction="right">
             <div className="relative">
-              <div className="relative w-full aspect-[4/5] rounded-2xl overflow-hidden bg-gray-100">
+              <div className="relative w-full aspect-[4/5] rounded-2xl overflow-hidden bg-gray-100 shadow-xl">
                 <Image
-                  src="/images/src="founder-placeholder.jpg"
+                  src="/images/founder-placeholder.jpg"
                   alt={`${companyConfig.founder.name} - Founder`}
                   fill
                   className="object-cover object-center"
                   priority
+                  sizes="(max-width: 768px) 100vw, 50vw"
                 />
               </div>
-              {/* Decorative Element */}
-              <div className="absolute -bottom-6 -right-6 w-32 h-32 bg-primary-blue/10 rounded-2xl -z-10" />
-              <div className="absolute -top-6 -left-6 w-32 h-32 bg-primary-green/10 rounded-2xl -z-10" />
+              {/* Decorative Elements */}
+              <div className="absolute -bottom-6 -right-6 w-32 h-32 bg-primary-blue/10 rounded-2xl -z-10 hidden md:block" />
+              <div className="absolute -top-6 -left-6 w-32 h-32 bg-primary-green/10 rounded-2xl -z-10 hidden md:block" />
             </div>
           </FadeIn>
 
@@ -40,7 +41,7 @@ export default function FounderMessage() {
               
               <div className="relative">
                 <Quote className="absolute -top-4 -left-2 w-8 h-8 text-primary-blue/20" />
-                <p className="text-gray-600 leading-relaxed text-lg mb-6 pl-6">
+                <p className="text-gray-600 leading-relaxed text-lg mb-8 pl-6">
                   {companyConfig.founder.message}
                 </p>
               </div>

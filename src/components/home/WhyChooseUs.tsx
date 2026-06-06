@@ -5,9 +5,9 @@ import AnimatedCounter from '../common/AnimatedCounter';
 import { Users, Award, FileCheck, TrendingUp } from 'lucide-react';
 
 const stats = [
-  { icon: Users, value: 1000, suffix: '+', label: 'Happy Clients' },
-  { icon: Award, value: 15, suffix: '+', label: 'Years Experience' },
-  { icon: FileCheck, value: 5000, suffix: '+', label: 'Returns Filed' },
+  { icon: Users, value: 400, suffix: '+', label: 'Happy Clients' },
+  { icon: Award, value: 7, suffix: '+', label: 'Years Experience' },
+  { icon: FileCheck, value: 2500, suffix: '+', label: 'Returns Filed' },
   { icon: TrendingUp, value: 98, suffix: '%', label: 'Success Rate' },
 ];
 

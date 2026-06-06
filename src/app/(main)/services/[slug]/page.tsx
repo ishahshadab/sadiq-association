@@ -5,9 +5,6 @@ import Link from 'next/link';
 import { services } from '@/data/services';
 import { companyConfig } from '@/config/company';
 
-import ServiceCard from '@/components/common/ServiceCard';
-import SectionHeading from '@/components/common/SectionHeading';
-
 interface Props {
   params: { slug: string };
 }
@@ -33,8 +30,7 @@ export default function ServiceDetailPage({ params }: Props) {
   const service = services.find((s) => s.slug === params.slug);
   if (!service) notFound();
 
-  const Icon = service.icon;
-  const related = services.filter((s) => s.category === service.category && s.id !== service.id).slice(0, 3);
+  const Icon = service.icon || MessageCircle;
 
   const whatsappMessage = encodeURIComponent(
     `Hello ${companyConfig.name},\n\nI would like to book an appointment for ${service.name}.\n\nPlease share available timings and details.`
@@ -42,7 +38,7 @@ export default function ServiceDetailPage({ params }: Props) {
   const whatsappUrl = `https://wa.me/${companyConfig.contact.whatsapp}?text=${whatsappMessage}`;
 
   return (
-    
+    <>
       {/* Banner */}
       <section className="relative py-20 md:py-28 bg-gradient-to-br from-primary-blue to-primary-dark text-white overflow-hidden">
         <div className="absolute inset-0 bg-[linear-gradient(to_right,#ffffff08_1px,transparent_1px),linear-gradient(to_bottom,#ffffff08_1px,transparent_1px)] bg-[size:40px_40px]" />
@@ -142,24 +138,6 @@ export default function ServiceDetailPage({ params }: Props) {
         </div>
       </section>
 
-      {/* Related Services */}
-      {related.length > 0 && (
-        <section className="section-padding bg-gray-50">
-          <div className="container-custom">
-            <SectionHeading
-              tag="Related"
-              title="You May Also Like"
-              subtitle="Explore more services in the same category."
-            />
-            <div className="grid md:grid-cols-3 gap-6">
-              {related.map((s, i) => (
-                <ServiceCard key={s.id} service={s} index={i} />
-              ))}
-            </div>
-          </div>
-        </section>
-      )}
-
       {/* CTA */}
       <section className="section-padding bg-gradient-primary text-white">
         <div className="container-custom text-center">
@@ -176,6 +154,6 @@ export default function ServiceDetailPage({ params }: Props) {
           </a>
         </div>
       </section>
-   
+    </>
   );
 }

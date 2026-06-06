@@ -50,10 +50,7 @@ export default function FounderMessage() {
                   {companyConfig.founder.name}
                 </h3>
                 <p className="text-primary-blue font-medium">
-                  {companyConfig.founder.designation}
-                </p>
-                <p className="text-gray-500 text-sm mt-1">
-                  {companyConfig.founder.credentials}
+                  {companyConfig.founder.title}
                 </p>
               </div>
             </div>

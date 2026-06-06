@@ -1,11 +1,11 @@
-import PageTransition from '@/components/layout/PageTransition';
+//import PageTransition from '@/components/layout/PageTransition';
 import { companyConfig } from '@/config/company';
 
 export const metadata = { title: 'Disclaimer' };
 
 export default function DisclaimerPage() {
   return (
-    <PageTransition>
+    //<PageTransition>
       <section className="py-20 md:py-28 bg-gradient-to-br from-primary-blue to-primary-dark text-white">
         <div className="container-custom px-4 md:px-8">
           <h1 className="text-4xl md:text-5xl font-bold font-display mb-4">Disclaimer</h1>
@@ -30,6 +30,6 @@ export default function DisclaimerPage() {
           <p>If you have any questions about this disclaimer, please contact us at {companyConfig.contact.email}.</p>
         </div>
       </section>
-    </PageTransition>
+    //</PageTransition>
   );
 }

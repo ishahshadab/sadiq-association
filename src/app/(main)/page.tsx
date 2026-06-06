@@ -1,4 +1,4 @@
-"import Hero from '@/components/home/Hero';
+import Hero from '@/components/home/Hero';
 import AboutSection from '@/components/home/AboutSection';
 import WhyChooseUs from '@/components/home/WhyChooseUs';
 import ServicesOverview from '@/components/home/ServicesOverview';
@@ -25,4 +25,3 @@ export default function HomePage() {
     </>
   );
 }
-"

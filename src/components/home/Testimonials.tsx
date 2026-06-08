@@ -18,7 +18,7 @@ const testimonials = [
     rating: 4.5,
   },
   {
-    name: 'Amit PatelHammad Rizvi',
+    name: 'Hammad Rizvi',
     role: 'Director, Metro Retail Solutions',
     text: 'We have been using their accounting and compliance services for 5 years. Absolutely reliable and thorough in their work.',
     rating: 5,

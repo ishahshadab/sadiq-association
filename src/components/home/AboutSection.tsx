@@ -37,7 +37,7 @@ export default function AboutSection() {
                 viewport={{ once: true }}
                 className="absolute -bottom-6 -right-6 bg-gradient-primary text-white rounded-2xl p-6 shadow-2xl"
               >
-                <div className="text-4xl font-bold">15+</div>
+                <div className="text-4xl font-bold">7+</div>
                 <div className="text-sm">Years of Excellence</div>
               </motion.div>
             </div>

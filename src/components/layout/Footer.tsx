@@ -20,7 +20,7 @@ export default function Footer() {
               </div>
               <div>
                 <div className="font-bold text-lg text-white">{companyConfig.shortName}</div>
-                <div className="text-xs text-gray-400">Financial Experts</div>
+                <div className="text-xs text-gray-400">Financial & Tax Consultants</div>
               </div>
             </div>
             <p className="text-sm text-gray-400 mb-5 leading-relaxed">

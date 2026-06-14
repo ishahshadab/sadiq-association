@@ -14,7 +14,7 @@ export const companyConfig = {
   },
 
   contact: {
-    phone: '+91-9540355698',
+    phone: '+011-41679807',
     phoneDisplay: '+91 95403 55698',
     whatsapp: '919540355698', // No +, no spaces, country code first
     email: 'sadiqassociation.co@gmail.com',
@@ -38,7 +38,7 @@ export const companyConfig = {
 
   seo: {
     siteUrl: 'https://sadiqassociation.com',
-    defaultTitle: 'SadiQ Association & Co. | Taxation, Accounting & Compliance Experts',
+    defaultTitle: 'SadiQ Association & Co. | Accountants & Tax Consultants',
     defaultDescription:
       'SadiQ Association & Co. provides expert taxation, accounting, GST, compliance, and business consulting services for individuals, startups, and enterprises.',
     keywords: [

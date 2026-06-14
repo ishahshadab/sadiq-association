@@ -14,8 +14,8 @@ export const companyConfig = {
   },
 
   contact: {
-    phone: '+011-41679807',
-    phoneDisplay: '+91 95403 55698',
+    phone: '011-41679807',
+    phoneDisplay: '011-41679807',
     whatsapp: '919540355698', // No +, no spaces, country code first
     email: 'sadiqassociation.co@gmail.com',
     address: 'Ground floor, F-12/33, near Nooh Masjid, Jogabai Extension, Jamia Nagar, Okhla, New Delhi, Delhi 110025',

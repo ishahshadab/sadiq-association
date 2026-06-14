@@ -7,8 +7,7 @@ export const companyConfig = {
 
   founder: {
     name: 'MOHD GASHARIB',
-    title: 'B.COM(H), GSTP
-Founder & Proprietor',
+    title: "B.COM(H), GSTP\nFounder & Proprietor",
     image: '/images/founder-placeholder.jpg',
     message:
       'At SadiQ Association & Co., our mission is to provide transparent, reliable and growth-oriented financial solutions. Since 2019, we are committed to helping individuals, startups and businesses manage taxation, compliance and financial responsibilities with confidence.',

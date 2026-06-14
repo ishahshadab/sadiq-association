@@ -11,7 +11,7 @@ const features = [
   },
   {
     icon: Users,
-    title: '400+ Happy Clients',
+    title: '1000+ Happy Clients',
     description: 'Serving businesses and individuals across India with dedication.',
   },
   {

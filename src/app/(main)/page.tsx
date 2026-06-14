@@ -19,7 +19,7 @@ export default function HomePage() {
       <WhyChooseUs />
       <ProcessOverview />
       <FounderMessage />
-      <Testimonials />
+      
       
       <ContactCTA />
     </>

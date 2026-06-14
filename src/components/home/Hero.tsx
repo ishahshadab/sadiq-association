@@ -104,7 +104,7 @@ export default function Hero() {
               <div className="flex items-center justify-between mb-6">
                 <div>
                   <div className="text-sm text-gray-500">Clients Handled</div>
-                  <div className="text-4xl font-bold text-gray-900">400+</div>
+                  <div className="text-4xl font-bold text-gray-900">1000+</div>
                   <div className="text-sm text-green-600 mt-1">Growing Strong</div>
                 </div>
                 <div className="w-14 h-14 rounded-xl bg-blue-50 flex items-center justify-center">

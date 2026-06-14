@@ -8,8 +8,24 @@
   html {
     scroll-behavior: smooth;
   }
+  
+  /* Global Font - Times New Roman */
+  html, body, * {
+    font-family: 'Times New Roman', Times, serif !important;
+  }
+  
   body {
-    @apply font-sans text-gray-800 antialiased;
+    @apply text-gray-800 antialiased;
+  }
+  
+  /* Headings */
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Times New Roman', Times, serif !important;
+  }
+  
+  /* Input Fields */
+  input, textarea, select, button {
+    font-family: 'Times New Roman', Times, serif !important;
   }
 }
 
@@ -55,6 +71,7 @@
   -webkit-text-fill-color: transparent;
   animation: gradient 4s linear infinite;
 }
+
 /* Fix horizontal overflow safely (Background graphics ke liye) */
 html {
   overflow-x: hidden;

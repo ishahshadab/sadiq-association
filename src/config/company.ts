@@ -1,13 +1,14 @@
 export const companyConfig = {
   name: 'SadiQ Association & Co.',
-  shortName: 'SadiQ & Co.',
+  shortName: 'SadiQ Association & Co.',
   tagline: 'Your Trusted Partner for Taxation, Accounting & Business Compliance',
   description:
     'Helping Businesses, Startups and Individuals with Complete Financial, Taxation and Compliance Solutions.',
 
   founder: {
     name: 'MOHD GASHARIB',
-    title: 'Founder & Owner',
+    title: 'B.COM(H), GSTP
+Founder & Proprietor',
     image: '/images/founder-placeholder.jpg',
     message:
       'At SadiQ Association & Co., our mission is to provide transparent, reliable and growth-oriented financial solutions. Since 2019, we are committed to helping individuals, startups and businesses manage taxation, compliance and financial responsibilities with confidence.',

@@ -5,7 +5,7 @@ import ServicesOverview from '@/components/home/ServicesOverview';
 import ProcessOverview from '@/components/home/ProcessOverview';
 import StatsCounter from '@/components/home/StatsCounter';
 import FounderMessage from '@/components/home/FounderMessage';
-import Testimonials from '@/components/home/Testimonials';
+
 
 import ContactCTA from '@/components/home/ContactCTA';
 

@@ -9,7 +9,7 @@ import { companyConfig } from '@/config/company';
 
 const highlights = [
   'Since 2019',
-  '400+ Happy Clients',
+  '1000+ Happy Clients',
   'Expert CA & CS Team',
   '100% Compliance Guarantee',
 ];

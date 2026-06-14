@@ -71,7 +71,7 @@ export default function Header() {
     {companyConfig.name}
   </div>
   <div className="text-xs text-gray-500 font-medium hidden sm:block">
-    Financial & Tax Consultants
+    Accountants & Tax Consultants
   </div>
 </div>
 </Link>

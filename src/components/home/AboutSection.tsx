@@ -48,8 +48,8 @@ export default function AboutSection() {
               <span className="inline-block px-4 py-1.5 mb-4 text-sm font-semibold tracking-wider uppercase rounded-full bg-primary-blue/10 text-primary-blue border border-primary-blue/20">
                 About Us
               </span>
-              <p className="text-primary-blue font-semibold text-lg mb-2">Welcome to</p>
-              <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold font-display text-gray-900 leading-tight mb-4">
+              <p className="text-primary-blue font-semibold text-xl mb-2">Welcome to</p>
+              <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold font-display text-gray-900 leading-tight mb-4">
                 {companyConfig.name}
               </h2>
               <p className="text-lg text-gray-600">

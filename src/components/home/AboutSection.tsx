@@ -49,7 +49,7 @@ export default function AboutSection() {
                 About Us
               </span>
               <p className="text-primary-blue font-semibold text-xl mb-2">Welcome to</p>
-              <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold font-display text-gray-900 leading-tight mb-4">
+              <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-bold font-display text-gray-900 leading-tight mb-4 whitespace-nowrap">
                 {companyConfig.name}
               </h2>
               <p className="text-lg text-gray-600">

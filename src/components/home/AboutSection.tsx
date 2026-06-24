@@ -44,12 +44,18 @@ export default function AboutSection() {
           </FadeIn>
 
           <FadeIn direction="right">
-            <SectionHeading
-              tag="About Us"
-              title={`Welcome to ${companyConfig.shortName}`}
-              subtitle="Your one-stop solution for all financial, taxation, and compliance needs."
-              align="left"
-            />
+            <div className="mb-8">
+              <span className="inline-block px-4 py-1.5 mb-4 text-sm font-semibold tracking-wider uppercase rounded-full bg-primary-blue/10 text-primary-blue border border-primary-blue/20">
+                About Us
+              </span>
+              <p className="text-primary-blue font-semibold text-lg mb-2">Welcome to</p>
+              <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold font-display text-gray-900 leading-tight mb-4">
+                {companyConfig.name}
+              </h2>
+              <p className="text-lg text-gray-600">
+                Your one-stop solution for all financial, taxation, and compliance needs.
+              </p>
+            </div>
             <p className="text-gray-600 mb-6 leading-relaxed">
               {companyConfig.name} is a premier financial consultancy firm dedicated to providing
               comprehensive taxation, accounting, and compliance solutions. With a team of qualified
@@ -57,15 +63,10 @@ export default function AboutSection() {
             </p>
             <div className="grid sm:grid-cols-2 gap-4 mb-8">
               {highlights.map((item, i) => (
-<motion.div
-  initial={{ scale: 0 }}
-  whileInView={{ scale: 1 }}
-  viewport={{ once: true }}
-  className="absolute -bottom-6 -right-6 bg-gradient-primary text-white rounded-2xl p-6 shadow-2xl"
->
-  <div className="text-4xl font-bold">7+</div>
-  <div className="text-sm">Years Experience</div>
-</motion.div>
+                <div key={i} className="flex items-center gap-2">
+                  <CheckCircle2 className="w-5 h-5 text-primary-green flex-shrink-0" />
+                  <span className="text-gray-700 font-medium">{item}</span>
+                </div>
               ))}
             </div>
           </FadeIn>

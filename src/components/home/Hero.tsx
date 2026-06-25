@@ -84,7 +84,7 @@ export default function Hero() {
               transition={{ duration: 0.7, delay: 0.5 }}
               className="flex flex-wrap gap-6"
             >
-              {['Expert Team', '100% Compliance', '24/7 Support'].map((item, i) => (
+              {['Professional Team', '100% Compliance', '24/7 Support'].map((item, i) => (
                 <div key={i} className="flex items-center gap-2">
                   <CheckCircle2 className="w-5 h-5 text-green-500" />
                   <span className="text-sm font-medium text-gray-700">{item}</span>

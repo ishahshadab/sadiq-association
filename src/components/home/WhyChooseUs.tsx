@@ -31,8 +31,8 @@ const features = [
   },
   {
     icon: CheckCircle2,
-    title: 'Expert CA Team',
-    description: 'Qualified Chartered Accountants handling your finances.',
+    title: 'Professional Team',
+    description: 'Qualified CA, CS, & GST Practitioners handling your finances.',
   },
 ];
 

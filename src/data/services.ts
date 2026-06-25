@@ -23,6 +23,17 @@ export interface Service {
 export const services: Service[] = [
   {
     id: 1,
+    name: 'Goods And Services Tax',
+    slug: 'goods-and-services-tax',
+    icon: Calculator,
+    shortDescription: 'Complete GST solutions for businesses of all sizes.',
+    description: 'End-to-end GST services including registration, return filing, compliance, and advisory to keep your business GST-compliant.',
+    benefits: ['Registration', 'Return filing', 'Compliance', 'Advisory', 'Audit support'],
+    process: ['Assessment', 'Registration', 'Filing', 'Compliance', 'Advisory'],
+    category: 'GST',
+  },
+  {
+    id: 2,
     name: 'Income Tax Filing',
     slug: 'income-tax-filing',
     icon: FileText,
@@ -33,23 +44,12 @@ export const services: Service[] = [
     category: 'Taxation',
   },
   {
-    id: 2,
-    name: 'Business Tax Planning',
-    slug: 'business-tax-planning',
-    icon: Calculator,
-    shortDescription: 'Strategic tax planning to minimize liabilities and maximize business growth.',
-    description: 'We develop comprehensive tax strategies tailored to your business structure, industry, and growth objectives. Our proactive approach helps you stay compliant while optimizing your tax position throughout the year.',
-    benefits: ['Reduced tax liability', 'Legal tax savings', 'Year-round planning', 'Industry-specific strategies', 'Growth-oriented solutions'],
-    process: ['Business Analysis', 'Tax Strategy Design', 'Implementation', 'Monitoring', 'Annual Review'],
-    category: 'Taxation',
-  },
-  {
     id: 3,
     name: 'Tax Planning',
     slug: 'tax-planning',
     icon: TrendingUp,
-    shortDescription: 'Personalized tax planning for individuals and professionals.',
-    description: 'Smart tax planning helps you retain more of your hard-earned money. We analyze your income sources, investments, and expenses to create a customized tax-saving roadmap.',
+    shortDescription: 'Personalized tax planning for individuals and businesses.',
+    description: 'Smart tax planning helps you retain more of your hard-earned money. We analyze your income sources, investments, and expenses to create a customized tax-saving roadmap for individuals and businesses.',
     benefits: ['Personalized strategy', 'Investment guidance', 'Deduction maximization', 'Future planning', 'Compliance assurance'],
     process: ['Financial Review', 'Goal Setting', 'Strategy Creation', 'Implementation', 'Follow-up'],
     category: 'Taxation',
@@ -375,17 +375,6 @@ export const services: Service[] = [
   },
   {
     id: 33,
-    name: 'Goods And Services Tax',
-    slug: 'goods-and-services-tax',
-    icon: Calculator,
-    shortDescription: 'Complete GST solutions for businesses of all sizes.',
-    description: 'End-to-end GST services including registration, return filing, compliance, and advisory to keep your business GST-compliant.',
-    benefits: ['Registration', 'Return filing', 'Compliance', 'Advisory', 'Audit support'],
-    process: ['Assessment', 'Registration', 'Filing', 'Compliance', 'Advisory'],
-    category: 'GST',
-  },
-  {
-    id: 34,
     name: 'GST Compliance',
     slug: 'gst-compliance',
     icon: Shield,
@@ -396,7 +385,7 @@ export const services: Service[] = [
     category: 'GST',
   },
   {
-    id: 35,
+    id: 34,
     name: 'GST Registration',
     slug: 'gst-registration',
     icon: Stamp,
@@ -407,7 +396,7 @@ export const services: Service[] = [
     category: 'GST',
   },
   {
-    id: 36,
+    id: 35,
     name: 'GST Return Filing',
     slug: 'gst-return-filing',
     icon: FileCheck,
@@ -418,7 +407,7 @@ export const services: Service[] = [
     category: 'GST',
   },
   {
-    id: 37,
+    id: 36,
     name: 'Import Export Registration',
     slug: 'import-export-registration',
     icon: Globe,
@@ -429,7 +418,7 @@ export const services: Service[] = [
     category: 'Registration',
   },
   {
-    id: 38,
+    id: 37,
     name: 'Intellectual Property Law',
     slug: 'intellectual-property-law',
     icon: Scale,
@@ -440,7 +429,7 @@ export const services: Service[] = [
     category: 'IP',
   },
   {
-    id: 39,
+    id: 38,
     name: 'Intellectual Property Protection',
     slug: 'intellectual-property-protection',
     icon: Lock,
@@ -451,7 +440,7 @@ export const services: Service[] = [
     category: 'IP',
   },
   {
-    id: 40,
+    id: 39,
     name: 'LLP Compliance',
     slug: 'llp-compliance',
     icon: Shield,
@@ -462,7 +451,7 @@ export const services: Service[] = [
     category: 'Compliance',
   },
   {
-    id: 41,
+    id: 40,
     name: 'LLP Incorporation Services',
     slug: 'llp-incorporation-services',
     icon: Building2,
@@ -473,7 +462,7 @@ export const services: Service[] = [
     category: 'Registration',
   },
   {
-    id: 42,
+    id: 41,
     name: 'One Person Company Registration',
     slug: 'one-person-company-registration',
     icon: UserCheck,
@@ -484,7 +473,7 @@ export const services: Service[] = [
     category: 'Registration',
   },
   {
-    id: 43,
+    id: 42,
     name: 'OPC Registration',
     slug: 'opc-registration',
     icon: UserCheck,
@@ -494,19 +483,19 @@ export const services: Service[] = [
     process: ['Application', 'Documentation', 'Filing', 'Follow-up', 'Certificate'],
     category: 'Registration',
   },
-{
-  id: 44,
-  name: 'Patent Service',
-  slug: 'patent-service',
-  icon: Lightbulb,
-  shortDescription: 'Complete patent filing and protection services.',
-  description: 'Protect your inventions with our comprehensive patent services including filing, prosecution, and enforcement.',
-  benefits: ['Patent filing', 'Prosecution', 'Protection', 'Enforcement', 'Advisory'],
-  process: ['Invention Disclosure', 'Search', 'Filing', 'Prosecution', 'Grant'],
-  category: 'IP',
-},
   {
-    id: 45,
+    id: 43,
+    name: 'Patent Service',
+    slug: 'patent-service',
+    icon: Lightbulb,
+    shortDescription: 'Complete patent filing and protection services.',
+    description: 'Protect your inventions with our comprehensive patent services including filing, prosecution, and enforcement.',
+    benefits: ['Patent filing', 'Prosecution', 'Protection', 'Enforcement', 'Advisory'],
+    process: ['Invention Disclosure', 'Search', 'Filing', 'Prosecution', 'Grant'],
+    category: 'IP',
+  },
+  {
+    id: 44,
     name: 'PF And ESI',
     slug: 'pf-and-esi',
     icon: Users,
@@ -517,7 +506,7 @@ export const services: Service[] = [
     category: 'Compliance',
   },
   {
-    id: 46,
+    id: 45,
     name: 'Private Limited Company Incorporation',
     slug: 'private-limited-company-incorporation',
     icon: Building2,
@@ -528,7 +517,7 @@ export const services: Service[] = [
     category: 'Registration',
   },
   {
-    id: 47,
+    id: 46,
     name: 'Registration Certificate',
     slug: 'registration-certificate',
     icon: Award,
@@ -539,7 +528,7 @@ export const services: Service[] = [
     category: 'Registration',
   },
   {
-    id: 48,
+    id: 47,
     name: 'Startup Consultation',
     slug: 'startup-consultation',
     icon: Rocket,
@@ -550,7 +539,7 @@ export const services: Service[] = [
     category: 'Business',
   },
   {
-    id: 49,
+    id: 48,
     name: 'Tax Advisor',
     slug: 'tax-advisor',
     icon: Calculator,
@@ -561,7 +550,7 @@ export const services: Service[] = [
     category: 'Taxation',
   },
   {
-    id: 50,
+    id: 49,
     name: 'Tax Deducted At Source',
     slug: 'tax-deducted-at-source',
     icon: FileText,
@@ -572,7 +561,7 @@ export const services: Service[] = [
     category: 'Taxation',
   },
   {
-    id: 51,
+    id: 50,
     name: 'Tax Laws',
     slug: 'tax-laws',
     icon: Scale,
@@ -583,7 +572,7 @@ export const services: Service[] = [
     category: 'Taxation',
   },
   {
-    id: 52,
+    id: 51,
     name: 'Tax Regulations',
     slug: 'tax-regulations',
     icon: FileCheck,
@@ -594,7 +583,7 @@ export const services: Service[] = [
     category: 'Taxation',
   },
   {
-    id: 53,
+    id: 52,
     name: 'TDS Return Filing',
     slug: 'tds-return-filing',
     icon: FileCheck,
@@ -605,7 +594,7 @@ export const services: Service[] = [
     category: 'Taxation',
   },
   {
-    id: 54,
+    id: 53,
     name: 'Trademark Filing',
     slug: 'trademark-filing',
     icon: Stamp,
@@ -616,7 +605,7 @@ export const services: Service[] = [
     category: 'IP',
   },
   {
-    id: 55,
+    id: 54,
     name: 'Trademark Renewal',
     slug: 'trademark-renewal',
     icon: RefreshCw,
@@ -627,7 +616,7 @@ export const services: Service[] = [
     category: 'IP',
   },
   {
-    id: 56,
+    id: 55,
     name: 'Trademark Transfer',
     slug: 'trademark-transfer',
     icon: ArrowRightLeft,
@@ -638,7 +627,7 @@ export const services: Service[] = [
     category: 'IP',
   },
   {
-    id: 57,
+    id: 56,
     name: 'US Taxation',
     slug: 'us-taxation',
     icon: Flag,

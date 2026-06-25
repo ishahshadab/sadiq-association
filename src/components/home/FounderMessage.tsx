@@ -50,9 +50,10 @@ export default function FounderMessage() {
                 <h3 className="text-xl font-bold text-gray-900">
                   {companyConfig.founder.name}
                 </h3>
-                <p className="text-primary-blue font-medium">
-                  {companyConfig.founder.title}
-                </p>
+                <div className="text-primary-blue font-medium">
+                  <p className="text-sm">B.COM(H), GSTP</p>
+                  <p className="text-sm">Founder & Proprietor</p>
+                </div>
               </div>
             </div>
           </FadeIn>
